@@ -1,0 +1,16 @@
+﻿<Page x:Class="Fitness_Star.pages.PageStart"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="916.8"
+	Title="PageStart">
+
+    <Grid Width="800" Height="600">
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\EXPERT\Documents\Visual Studio 2013\Projects\Fitness Star\Fitness Star\obj\Debug\Images\exterior.jpg"/>
+        </Grid.Background>
+        <Button Content="Entrance" Margin="301,326,341,188" BorderBrush="Black" Click="Button_Click" IsHitTestVisible="True" Background="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+    </Grid>
+</Page>

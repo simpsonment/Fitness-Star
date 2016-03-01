@@ -1,0 +1,23 @@
+﻿<Page x:Class="Fitness_Star.pages.PageTreadmill"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+	Title="PageTreadmill">
+
+    <Grid Margin="0,0,-62,-57">
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\EXPERT\Documents\Visual Studio 2013\Projects\Fitness Star\Fitness Star\obj\Debug\Images\treadmill.jpg"/>
+        </Grid.Background>
+        <Button Content="Begin Workout" Margin="298,383,459,230" Click="Button_Click"/>
+        <Label Content="Weight (kg)" HorizontalAlignment="Left" Margin="158,383,0,0" VerticalAlignment="Top" Height="44" Width="114" RenderTransformOrigin="0.487,0.608" FontSize="20"/>
+        <TextBox x:Name="TextBoxW" HorizontalAlignment="Left" Height="37" Margin="170,432,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="102" FontSize="20" IsEnabled="False"/>
+        <Label Content="Height (cm)" HorizontalAlignment="Left" Margin="609,383,0,0" VerticalAlignment="Top" Width="112" Height="44" FontSize="20"/>
+        <TextBox x:Name="TextBoxH" HorizontalAlignment="Left" Height="37" Margin="609,432,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" FontSize="20"/>
+        <Button x:Name="ButtonWorkout" Content="Workout Plan" HorizontalAlignment="Left" Margin="192,157,0,0" VerticalAlignment="Top" Width="80" Height="39" IsEnabled="False" Click="ButtonWorkout_Click"/>
+        <Button x:Name="ButtonMeal" Content="Meal Plan" HorizontalAlignment="Left" Margin="192,235,0,0" VerticalAlignment="Top" Width="80" Height="38" IsEnabled="False" Click="ButtonMeal_Click"/>
+        <TextBox x:Name="MealPlan" HorizontalAlignment="Left" Height="196" Margin="277,148,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="309" Visibility="Hidden" FontSize="18" IsEnabled="False"/>
+    </Grid>
+</Page>
